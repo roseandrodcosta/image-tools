@@ -1,0 +1,48 @@
+{
+  "canvas": {
+    "width": 5000,
+    "height": 5000
+  },
+  "screen": {
+    "x": 1548,
+    "y": 419,
+    "width": 1904,
+    "height": 4146
+  },
+  "sampledScreenColor": {
+    "red": 24,
+    "green": 22,
+    "blue": 25
+  },
+  "colorDistance": 16,
+  "referenceFile": "iphone-16-pro-max-desert-titanium.jpg",
+  "maskFile": "iphone-screen-mask.png",
+  "cutoutMaskFile": "iphone-cutout-mask.png",
+  "referenceSha256": "c73f9c66282f88a9c1283e63ab4600d8c82f0bc82ba72d210eb3107599b762a6",
+  "replaceablePixelCount": 7703798,
+  "protectedPixelCount": 17296202,
+  "opaqueCutoutPixelCount": 8648473,
+  "statusBar": {
+    "heightFraction": 0.06,
+    "height": 249
+  },
+  "lightChromePatchFile": "iphone-status-chrome-light.png",
+  "lightChromePatch": {
+    "x": 1548,
+    "y": 419,
+    "width": 1904,
+    "height": 249
+  },
+  "lightChromePatchSha256": "531ce890d0be9697a1e1f0500011228357bc500bd6a2742752d98cee5428bdb1",
+  "lightChromePatchOpaquePixelCount": 106003,
+  "lightChromeProtectedPixelChangesFromReference": 22218,
+  "screenMaskSha256": "70eeb5748b0ce50db628d4ae9e6eea53f43f33a2ac6de7f775f113edf17ec798",
+  "cutoutMaskSha256": "81832ecdb62a79f6b4d1195970e9accb049c5125f0d205606c06e8dca35f73ea",
+  "cutoutBox": {
+    "x": 1469,
+    "y": 354,
+    "width": 2062,
+    "height": 4446
+  },
+  "expectedCutoutDimensions": "2062x4446"
+}

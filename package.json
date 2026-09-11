@@ -5,7 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "build:iphone-reference": "node scripts/build-iphone-reference.mjs",
+    "verify:iphone-compositor": "node scripts/verify-iphone-compositor.mjs",
+    "batch:carousel-iphones": "node scripts/batch-carousel-iphone-composites.mjs",
+    "verify:carousel-iphones": "node scripts/verify-carousel-iphone-batch.mjs"
   },
   "dependencies": {
     "@fal-ai/client": "^1.9.0",

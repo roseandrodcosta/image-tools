@@ -1,11 +1,12 @@
 'use client';
 
 import { useState, useRef, useCallback } from 'react';
+import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Label } from '@/components/ui/label';
 import { Badge } from '@/components/ui/badge';
-import { Upload, Download, Trash2, Sparkles, Image as ImageIcon, Loader2 } from 'lucide-react';
+import { Upload, Download, Trash2, Sparkles, Image as ImageIcon, Loader2, Smartphone } from 'lucide-react';
 
 interface ProcessedImage {
   id: string;
@@ -358,9 +359,17 @@ export default function ImageToolsPage() {
     <main className="min-h-screen bg-gray-50">
       {/* Header */}
       <header className="border-b bg-white">
-        <div className="container mx-auto px-4 py-4 max-w-6xl">
-          <h1 className="text-xl font-bold">Image Tools</h1>
-          <p className="text-sm text-gray-500">Convert grey backgrounds to pure white for product images</p>
+        <div className="container mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4">
+          <div>
+            <h1 className="text-xl font-bold">Image Tools</h1>
+            <p className="text-sm text-gray-500">Convert grey backgrounds to pure white for product images</p>
+          </div>
+          <Button variant="outline" asChild>
+            <Link href="/iphone-compositor">
+              <Smartphone className="h-4 w-4" />
+              iPhone Compositor
+            </Link>
+          </Button>
         </div>
       </header>
 

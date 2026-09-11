@@ -1,0 +1,25 @@
+{
+  "canvas": {
+    "width": 5000,
+    "height": 5000
+  },
+  "screen": {
+    "x": 1548,
+    "y": 419,
+    "width": 1904,
+    "height": 4146
+  },
+  "sampledScreenColor": {
+    "red": 24,
+    "green": 22,
+    "blue": 25
+  },
+  "colorDistance": 16,
+  "referenceFile": "iphone-16-pro-max-desert-titanium.jpg",
+  "maskFile": "iphone-screen-mask.png",
+  "cutoutMaskFile": "iphone-cutout-mask.png",
+  "referenceSha256": "c73f9c66282f88a9c1283e63ab4600d8c82f0bc82ba72d210eb3107599b762a6",
+  "replaceablePixelCount": 7703798,
+  "protectedPixelCount": 17296202,
+  "opaqueCutoutPixelCount": 8648473
+}

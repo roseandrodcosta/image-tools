@@ -1,0 +1,7 @@
+interface:
+  display_name: "iPhone Screen Compositor"
+  short_description: "Make carousel-ready transparent iPhone cutouts"
+  default_prompt: "Use $iphone-screen-compositor to place these UI screenshots into the locked iPhone reference and return transparent cutouts."
+
+policy:
+  allow_implicit_invocation: true
